@@ -5,7 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "test": "jest",
-    "test-coverage": "jest --coverage && coveralls < coverage/lcov.info"
+    "test-coverage": "jest --coverage"
   },
   "author": "",
   "license": "ISC",

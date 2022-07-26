@@ -3,4 +3,10 @@ module.exports = {
   testEnvironment: 'node',
   restoreMocks: true,
   testPathIgnorePatterns: ['/node_modules/', '/build/'],
+  coverageReporters: ["lcov"],
+  coverageThreshold: {
+        global: {
+            lines: 80,
+        },
+    },
 };
